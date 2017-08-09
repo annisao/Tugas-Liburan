@@ -1,0 +1,15 @@
+h2 {
+	font-family: 'Courgette', cursive;
+	font-size: 3em;
+	color: white;
+	margin-left: 25px;
+  	margin-right: 25px;
+}
+
+.smaller-image {
+	display: block;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: auto;
+    width: 10%;
+}

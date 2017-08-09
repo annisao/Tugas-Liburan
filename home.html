@@ -9,17 +9,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="home.css">
   <link rel="stylesheet" type="text/css" href="bootstrap.css">
-  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> 
 </head>
 
-<body background="http://www.hdwallpaperspulse.com/wp-content/uploads/2017/03/06/simple-widescreen-wallpaper.jpg">
+<body background="http://jasamobilbox.com/wp-content/uploads/2013/04/120118_marbet-website-background-5.jpg">
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
 
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Database Laboratory</a>
+      <a class="navbar-brand" href="#">
+          <img alt="Database Laboratory" src="kecil.png" id="logo">
+      </a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
@@ -27,91 +30,119 @@
         <ul class="dropdown-menu">
           <li><a href="#">About Us</a></li>
           <li><a href="#">What We Do</a></li>
-          <li><a href="#">Our Achievements</a></li>
         </ul>
       </li>
       <li><a href="#">Meet Our Member</a></li>
       <li><a href="#">Join Us!</a></li>
       <li><a href="#">Coming Up Events</a></li>
     </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+    </ul>
   </div>
 </nav>
 
-<div class="container">
-  <p><img class="smaller-image" src="http://1.bp.blogspot.com/-ZIpBUCnmvq8/Tn1wYqpZWZI/AAAAAAAAADQ/g5RVmNOa_hg/s1600/basisdata.jpg" align="left">
-  <h1 id="h2">Database Laboratory</h1>
-  <p id="h2">Home</p></p>
-</div>
-  
-<div class="container">
-  <h2 id="h2" align="left">Our Gallery</h2>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
+    <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://www.study-in.de/medien/studyin.de/computer/fittosize__620_0_2bd5a8d571326ae4c3e6130ae39a0d01_computer_gruppe_gemischt_vonderweiden_daad.jpg" alt="Study Group Discussion" style="width:100%;">
+        <img src="https://www.study-in.de/medien/studyin.de/computer/fittosize__620_0_2bd5a8d571326ae4c3e6130ae39a0d01_computer_gruppe_gemischt_vonderweiden_daad.jpg" alt="Study Group Discussion">
         <div class="carousel-caption">
           <h3>Study Group Discussion</h3>
           <p>Discussion is always so much fun!</p>
-        </div>
+        </div>      
       </div>
 
       <div class="item">
-        <img src="https://www.timeshighereducation.com/sites/default/files/group-of-students-looking-at-computer-monitor.jpg" alt="Research Group Discussion" style="width:100%;">
+        <img src="https://www.timeshighereducation.com/sites/default/files/group-of-students-looking-at-computer-monitor.jpg" alt="Research Group Discussion">
         <div class="carousel-caption">
           <h3>Research Group Discussion</h3>
           <p>Discussion is always so much fun!</p>
-        </div>
+        </div>      
       </div>
-    
+
       <div class="item">
-        <img src="https://www.flux.utah.edu/beyond-internet-workshops/sdi/sdi-workshop-group.jpg" alt="Workshop" style="width:100%;">
+        <img src="https://www.flux.utah.edu/beyond-internet-workshops/sdi/sdi-workshop-group.jpg" alt="Workshop">
         <div class="carousel-caption">
           <h3>Workshop</h3>
           <p>Will be held in very coming soon!</p>
         </div>
       </div>
-  
+
+
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
 </div>
 
-<div class="container">
+<div class="container" id="test">
   <div class="row">
-    <div class="col-sm-4" id="background-column">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor..</p>
-      <p>Ut enim ad..</p>
+    <div class="col-sm-4">
+      <div class="well">
+      <p id="news">Latest News</p>
+      <br>
+      <img src="https://pisces.bbystatic.com/BestBuy_US/store/ee/2015/com/pm/nav_desktops_1115.jpg;maxHeight=288;maxWidth=520" class="img-responsive" style="width:100%" alt="Image">
+      <br>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...</p>
+       <button type="button" class="btn btn-info">Read More..</button>
+      </div>
     </div>
-    <div class="col-sm-4" id="background-column">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor..</p>
-      <p>Ut enim ad..</p>
+  </div>  
+</div>
+
+<div class="container text-center">    
+  <h3>Our Achievements</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="https://steamuserimages-a.akamaihd.net/ugc/35239975375061668/ACB134564983985B087613F528F1038B1B5F6ADA/" style="width:100%" alt="Image">
+      <p>Lorem Ipsum (2012)</p>
     </div>
-    <div class="col-sm-4" id="background-column">
-      <h3>Column 3</h3>
-      <p>Lorem ipsum dolor..</p>
-      <p>Ut enim ad..</p>
+    <div class="col-sm-2"> 
+      <img src="http://farrro.ru/wp-content/uploads/golden_cup-small.png" style="width:100%" alt="Image">
+      <p>Lorem Ipsum (2013)</p>    
     </div>
+    <div class="col-sm-2"> 
+      <img src="http://abload.de/img/altn-kupa20pssj5.png" style="width:100%" alt="Image">
+      <p>Lorem Ipsum (2014)</p>
+    </div>
+    <div class="col-sm-2"> 
+      <img src="https://i.pinimg.com/originals/3a/8b/fa/3a8bfaa6b41e4e78866a99ee5e9ab703.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Lorem Ipsum (2014)</p>
+    </div> 
+    <div class="col-sm-2"> 
+      <img src="https://www.fremantle.wa.gov.au/sites/default/files/Trophy.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Lorem Ipsum (2015)</p>
+    </div>     
+    <div class="col-sm-2"> 
+      <img src="http://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Trophy-and-Medals-PNG/Transparent_Gold_Cup_Trophy_PNG_Clipart.png?m=1432204028" class="img-responsive" style="width:100%" alt="Image">
+      <p>Lorem Ipsum (2015)</p>
+    </div> 
   </div>
+</div><br>
+
+<footer class="container-fluid text-center" id="footer">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <p></p>
+  Powered by <a href="#" target="_blank">basisdatalab</a>
+  </p>
+</footer>
 
 </body>
 </html>

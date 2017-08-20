@@ -1,0 +1,133 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+}
+
+#logo {
+	margin-top: -7px;
+	margin-bottom: auto;
+}
+
+#test {
+	margin-top: 50px;
+  	margin-bottom: auto;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#aboutus {
+	font-size: 4em;
+	color: black;
+	margin-top: auto;
+	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
+#img {
+    border-radius: 15px;
+    margin-left: 8em;
+    margin-right: 3em;
+    margin-bottom: 5em;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('pict/canstockphoto2859753.jpg');
+
+    /* Full height */
+    height: 95%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('pict/1.jpg');
+
+    /* Full height */
+    height: 80%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax2 {
+        background-attachment: scroll;
+    }
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('pict/2.jpg');
+
+    /* Full height */
+    height: 85%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax3 {
+        background-attachment: scroll;
+    }
+}
+
+#footer {
+	background-color: white;
+	margin-top: auto;
+  	margin-bottom: auto;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+  	background: #125688;
+  	color: white;
+}

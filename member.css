@@ -1,0 +1,120 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+}
+
+#logo {
+    margin-top: -7px;
+    margin-bottom: auto;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.image {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: auto;
+  height: 100%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  border-radius: 50%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#mySidenav a {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px; 
+    width: 200px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#sg {
+    top: 20px;
+    background-color: #81D4FA;
+}
+
+#rg {
+    top: 80px;
+    background-color: #4FC3F7; 
+}
+
+#hr {
+    top: 140px;
+    background-color: #29B6F6; 
+}
+
+body {
+      position: relative; 
+  }
+
+  #section1 {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+  }
+
+  #section2 {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+  }
+  
+  #section3 {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+  }
+
+  hr {
+    margin: auto;
+    width: 90%;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
